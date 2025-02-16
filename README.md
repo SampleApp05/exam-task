@@ -30,9 +30,11 @@ This project creates a sample staking token, **StakeX**, and a **StakingPool** c
    npx hardhat verify --network sepolia DEPLOYED_CONTRACT_ADDRESS "constructor_parameter1" "constructor_parameter2" ...
 
 6. Contract Verification Links
-   StakeX Contract:
+   StakeX Contract
    Sourcify - https://repo.sourcify.dev/contracts/full_match/11155111/0x3C17E0d3a1eb116aB0a8a14C0d1D716fC588ACa6/
    Etherscan - https://sepolia.etherscan.io/address/0x3C17E0d3a1eb116aB0a8a14C0d1D716fC588ACa6#code
    StakingPool Contract
    Sourcify - https://repo.sourcify.dev/contracts/full_match/11155111/0x642d786D8d3816B1239B159E94597033cEc0080f/
    Etherscan - https://sepolia.etherscan.io/address/0x642d786d8d3816b1239b159e94597033cec0080f#code
+
+7. GitHub Link - https://github.com/SampleApp05/exam-task
