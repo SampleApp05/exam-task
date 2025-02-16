@@ -31,11 +31,8 @@ const config: HardhatUserConfig = {
     apiKey: process.env.ETHERSCAN_API_KEY, // Etherscan API KEY
   },
 
-  gasReporter: {
+  sourcify: {
     enabled: true,
-    currency: "USD", // Show gas cost in USD
-    gasPrice: 20, // Simulate gas price (in Gwei)
-    coinmarketcap: process.env.COINMARKETCAP_API_KEY, // Optional: Get real-time gas prices
   },
 };
 
