@@ -15,9 +15,10 @@ This project creates a sample staking token, **StakeX**, and a **StakingPool** c
    OpenZeppelin Hardhat upgrades plugin - npm install @openzeppelin/hardhat-upgrades
    Etherscan plugin for Hardhat - npm install --save-dev hardhat @nomiclabs/hardhat-etherscan
 
-3. Deployment Instructions
+3. Deployment and Testing Instructions
    Run the deployPool task to deploy the StakeX token and the StakingPool contract - npx hardhat deployPool --network <selectedNetwork>
    This task deploys the StakeX token and the StakingPool contract, granting the pool a MINTER_ROLE to distribute rewards.
+   Run tests with 'npx hardhat test' command
 
 4. Deploying on Sepolia Testnet:
    Create a .env file and add the required API keys and URLs:
